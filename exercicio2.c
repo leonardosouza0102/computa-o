@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int hora, min, seg;
+    int hora, min;
+    float seg;
 
     printf("Digite hora, minuto e segundo:");
     scanf("%d %d %d", &hora, &min, &seg);
