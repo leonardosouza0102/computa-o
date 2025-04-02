@@ -2,7 +2,6 @@
 int main()
 {
     int hora, min, seg;
-    float aux=5.5
 
               printf("Digite hora, minutoe segundo:");
     scanf("%d %d %d", &hora, &min, &seg);
