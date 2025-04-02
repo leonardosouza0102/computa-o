@@ -1,14 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int hora, min
-    float seg
+    int hora, min;
+    float seg;
 
     printf("Digite hora, minuto e segundo:");
     scanf("%d %d %f", &hora, &min, &seg);
     if(hora>1 && min>15);
     {
-        printf("quantidade de segundos: %f\n", (hora*3600)+(min*60)+seg;
+        printf("quantidade de segundos: %f\n", (hora*3600)+(min*60)+seg);
     }
 
     else
