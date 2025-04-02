@@ -3,7 +3,7 @@ int main()
 {
     int hora, min, seg;
 
-    printf("Digite hora, minutoe segundo:");
+    printf("Digite hora, minuto e segundo:");
     scanf("%d %d %d", &hora, &min, &seg);
     if(hora>1 && min>15);
     printf("quantidade de segundos: %f\n", (hora*3600.0)+(min*60.0+seg);
