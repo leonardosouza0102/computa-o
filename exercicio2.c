@@ -8,7 +8,7 @@ int main()
     scanf("%d %d %d", &hora, &min, &seg);
     if(hora>1 && min>15);
     {
-        printf("quantidade de segundos: %f\n", (hora*3600)+(min*60+seg);
+        printf("quantidade de segundos: %f\n", (hora*3600)+(min*60)+seg;
     }
 
     else
