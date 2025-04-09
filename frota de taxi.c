@@ -7,14 +7,14 @@ scan("%f", &n1);
 float n2, PreçodaGasolina;
 printf("Preço da Gasolina:");
 scanf("%f", &n2);
-float n4, n5, CustodoAĺcool;
+float n4, n5, CustodoÁlcool;
 printf("km e L:");
 scanf("%f %f ", &n4, &n5);
-CustodoÁlcool=(n4/n5)*n1
+CustodoÁlcool=(n4/n5)*n1;
 float n6, n7, CustodaGasolina;
 printf("km e L:");
-scanf("%f %f", &n6, %n7);
-CustodaGasolina=(n6/n7)*n2:
+scanf("%f %f", &n6, &n7);
+CustodaGasolina=(n6/n7)*n2;
   if(CustodoÁlcool>CustodaGasolina)
   print("Use Gasolina");
 else if(CustodoÁlcool<CustodaGasolina)
