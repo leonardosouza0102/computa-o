@@ -1,10 +1,12 @@
 #include <stdio.h>
 int main()
 {
-int i=0;
-while(i<=100);
-printf("Digite seu número:");
-float n;
-printf("%d", 100/n, 100%n=2);
+int n,i=0;
+while(i<=100)
+  {
+  if(n%13==2)
+  {printf("%d", n)
+    }
+i++
 return 0;
 }
