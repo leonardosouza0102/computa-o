@@ -1,20 +1,23 @@
-
 #include<stdio.h>
 int main()
 {
-    int i=1, n, media;
-    printf("Digite um número:");
+    int i=1, n, maior=0;
+    printf("Digite um Número:");
     scanf("%d",&n);
-          while(n!=(-1000))
+    while(n>=0)
     {
-        printf("%d", );
-        i++
+        if(n>maior)
+        {
+          n=maior
+            printf("Digite um Número:");
+         scanf("%d",&n);
+        }      
+        else
+        {
+         printf("Digite um número:");
+         scanf("%d", &n);
+        }
     }
-    if(n>0)
-    {
-    printf("%d", n);
-    media=n/
-    printf("%d", media);
-    }
-    return 0;
+   printf("%d", maior);
+   return 0;
 }
