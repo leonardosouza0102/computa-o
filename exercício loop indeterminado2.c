@@ -5,19 +5,15 @@ int main()
     printf("Digite um Número:");
     scanf("%d",&n);
     while(n>=0)
-    {
+    
         if(n>maior)
         {
-          n=maior
-            printf("Digite um Número:");
-         scanf("%d",&n);
-        }      
-        else
-        {
+          maior=n;
+           
          printf("Digite um número:");
          scanf("%d", &n);
         }
-    }
+    
    printf("%d", maior);
    return 0;
 }
