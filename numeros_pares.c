@@ -6,14 +6,7 @@ int main()
     scanf("%d", &numero);
     for(i=0; i<=numero; i+=2)
     {
-        if(numero%2!=0)
-        {
-            resultados=i;
-        }
-        else
-        {
-            resultados=i;
-        }
+       resultados=i;
         printf("%d\n", resultados);
     }
     return 0;
