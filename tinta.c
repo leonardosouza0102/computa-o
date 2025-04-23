@@ -4,7 +4,7 @@ int main()
 {
     float altura, largura, area, litro;
     int LITRO;
-    printf("Digite a altura e alargura da parede em metros: ");
+    printf("Digite a altura e a largura da parede em metros: ");
     scanf("%f %f", &altura, &largura);
     area=altura*largura;
     litro=area/2;
