@@ -1,13 +1,14 @@
 #include<stdio.h>
 int main()
 {
-    int i=1, n
+    int i=1, n;
     printf("Digite um número:");
-    scanf("%d",&n);
+    scanf("%d", &n);
           while(n>=0)
     {
-        printf("%d", i);
-        i++
+        printf("%d\n", i);
+        i++;
+        scanf("%d", &n);
     }
     printf("%d", n);
     return 0;
