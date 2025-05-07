@@ -13,9 +13,9 @@ int main()
     printf("Digite um valor: ");
     scanf("%f", &valor);
     if(valor>=0)
-    printf("O valor arredondado eh: %.1f", arredonda(arredondado, valor));
+    printf("O valor arredondado é: %.1f", arredonda(arredondado, valor));
     else
     {
-    printf("O valor arredondado eh: -%.1f", arredonda(arredondado, valor));
+    printf("O valor arredondado é: -%.1f", arredonda(arredondado, valor));
     }
 }
