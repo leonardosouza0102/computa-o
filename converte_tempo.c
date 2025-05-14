@@ -2,8 +2,8 @@
 
 void converteHora (int totalseg, int *hora, int *min, int *seg)
 {
-    *hora=(totalseg/3600)-(totalseg%3600);
-    *min=((totalseg%3600)/60)-((totalseg%3600)%60);
+    *hora=(totalseg/3600)-((totalseg%3600)/3600);
+    *min=((totalseg%3600)/60)-((totalseg%3600)/60);
     *seg=(totalseg%3600)%60;
 }
 int main()
