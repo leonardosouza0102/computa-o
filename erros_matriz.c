@@ -39,7 +39,6 @@ void matriz(int *tam1, int *tam2, int m[*tam1][*tam2], int *y, int *x)
     srand(time(NULL));
     *tam1=rand()%11;
     *tam2=rand()%11;
-    m[*tam1][*tam2];
     for(i=0; i<*tam1; i++)
     {
         *y=rand()%101;
