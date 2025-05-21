@@ -13,8 +13,9 @@ int main()
         x=rand()%101;
          printf("%d ", m[y][x]);
        }
-        
+        printf("\n");
     }
     return 0;
 }
+
 
