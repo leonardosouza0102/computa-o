@@ -1,3 +1,4 @@
+//PRIMEIRO
 #include <stdio.h>
 int main()
 {
@@ -17,5 +18,37 @@ int main()
     }
     return 0;
 }
+
+//SEGUNDO
+#include <stdio.h>
+int main()
+{
+    int j, i, y, x, m[5][5], x2, y2;
+    srand(time(NULL));
+    for(i=0; i<5; i++)
+    {
+        for(j=0; j<5; j++)
+       {
+           int y=rand()%101;
+           int x=rand()%101;
+         printf("%d ", m[y][x]);
+       }
+        printf("\n");
+    }
+     printf("\n");
+    for(i=0; i<5; i++)
+    {
+        for(j=0; j<5; j++)
+       {
+           int y=rand()%101;
+           int x=rand()%101;
+         printf("%d ", m[x][y]);
+       }
+        printf("\n");
+    }
+    
+    return 0;
+}
+
 
 
