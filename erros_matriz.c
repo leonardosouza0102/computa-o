@@ -1,3 +1,4 @@
+//NÃO FAZER COM FUNÇÃO, COMPLICA DEMAIS
 // PRIMEIRA
 #include <stdio.h>
 void matriz(int *tam1, int *tam2, int m[*tam1][*tam2], int *y, int *x)
