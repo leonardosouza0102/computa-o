@@ -6,7 +6,7 @@ int main()
     #define n 10
     int m1[n][n], m2[n][n], i, j, x;
     srand(time(NULL));
-    printf("(0) Criar duas matrizes 10x10 com valores inteiros\n(1) Imprimir as matrizes originais\n(2) Somar as duas matrizes e imprimir o resultado\n(3) Subtrair a primeira matriz da segunda e imprimir o resultado\n(4) Multiplicar uma constante à primeira matriz e imprimir o resultado ");
+    printf("(0) Criar duas matrizes 10x10 com valores inteiros\n(1) Imprimir as matrizes originais\n(2) Somar as duas matrizes e imprimir o resultado\n(3) Subtrair a primeira matriz da segunda e imprimir o resultado\n(4) Multiplicar uma constante à primeira matriz e imprimir o resultado\n ");
     scanf("%d", &x);
     if(x==0)
     {
