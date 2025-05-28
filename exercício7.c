@@ -107,8 +107,7 @@ int main()
             }
             printf("\n");
         }
-        printf("Escolha de 0 a 4: ");
-        scanf("%d", &x);
+       return 0;
     }
     else
     {
