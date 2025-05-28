@@ -13,11 +13,11 @@ int main()
          if(i<=j)
          {
            printf("%d", m[i][j]);
-           printf("\n");
          }
          else
          break;
        }
+      printf("\n");
    }
    return 0;
 }
