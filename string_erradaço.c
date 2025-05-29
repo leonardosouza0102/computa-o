@@ -2,85 +2,37 @@
 #define T 100
 int main()
 {
-   int i;
+   int j, contaa, contae, contai, contao, contau;
    char string[T];
    char a='a';
    char e='e';
-   char I='I';
+   char i='i';
    char o='o';
    char u='u';
    printf("Digite uma string: ");
    fgets(string, T, stdin);
-   for(i=0; string[i]; i++)
+   for(j=0; string[j]; j++)
    {
-       if(string[i] == a)
+       if(string[j] == a)
        {
+           contaa++;
            printf("a:");
-           while(string[i])
+           for(j=1; string[j]; j++)
            {
-               i++;
                printf("*");
            }
-           printf("(%d)", i);
+           printf("(%d)\n", contaa);
        }
-       else
-       {
-           break;
-       }
-       if(string[i] == e)
+       else if(string[j] == e)
        {
            printf("e:");
-           while(string[i])
+           for(j=1; string[j]; j++)
            {
-               i++;
+               j++;
                printf("*");
            }
-           printf("(%d)", i);
+           printf("(%d)\n", j);
        }
-       else
-       {
-           break;
-       }
-       if(string[i] == I)
-       {
-           printf("I:");
-           while(string[i])
-           {
-               i++;
-               printf("*");
-           }
-           printf("(%d)", i);
-       }
-       else
-       {
-           break;
-       }
-        if(string[i] == o)
-       {
-           printf("o:");
-           while(string[i])
-           {
-               i++;
-               printf("*");
-           }
-           printf("(%d)", i);
-       }
-       else
-       {
-           break;
-       }
-       if(string[i] == u)
-       {
-           printf("u:");
-           while(string[i])
-           {
-               i++;
-               printf("*");
-           }
-           printf("(%d)", i);
-       }
-       else
-       break;
    }
    return 0;
 }
