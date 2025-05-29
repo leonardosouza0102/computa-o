@@ -11,7 +11,7 @@ int main()
        {
             if(j==0 || j==i)
             {
-              m[i][j]=1;
+              printf("%d ", m[i][j]=1);
             }
             else
             {
