@@ -24,7 +24,7 @@ int main()
        else if(string[j] == u)
          xu++;
    }
-   if(string[j] == a)
+   if(xa > 0)
    {
        printf("a:");
        for(j=1; j<=xa; j++)
@@ -33,7 +33,7 @@ int main()
        }
        printf("(%d)\n", xa);  
    }
-   else if(string[j] == e)
+   else if(xe > 0)
    {
        printf("e:");
        for(j=1; j<=xe; j++)
@@ -42,7 +42,7 @@ int main()
        }
        printf("(%d)\n", xe);  
    }
-   else if(string[j] == i)
+   else if(xi > 0)
    {
        printf("i:");
        for(j=1; j<=xi; j++)
@@ -51,7 +51,7 @@ int main()
        }
        printf("(%d)\n", xi);  
    }
-    else if(string[j] == o)
+    else if(xo > 0)
    {
        printf("o:");
        for(j=1; j<=xo; j++)
@@ -60,7 +60,7 @@ int main()
        }
        printf("(%d)\n", xo);  
    }
-   else if(string[j] == u)
+   else if(xu > 0)
    {
        printf("u:");
        for(j=1; j<=xu; j++)
