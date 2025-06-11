@@ -2,7 +2,7 @@
 #define T 100
 int main()
 {
-   int j, xa, xe, xi, xo, xu;
+   int j, xa=0, xe=0, xi=0, xo=0, xu=0;
    char string[T];
    char a='a';
    char e='e';
@@ -33,7 +33,7 @@ int main()
        }
        printf("(%d)\n", xa);  
    }
-   else if(xe > 0)
+   if(xe > 0)
    {
        printf("e:");
        for(j=1; j<=xe; j++)
@@ -42,7 +42,7 @@ int main()
        }
        printf("(%d)\n", xe);  
    }
-   else if(xi > 0)
+   if(xi > 0)
    {
        printf("i:");
        for(j=1; j<=xi; j++)
@@ -51,7 +51,7 @@ int main()
        }
        printf("(%d)\n", xi);  
    }
-    else if(xo > 0)
+   if(xo > 0)
    {
        printf("o:");
        for(j=1; j<=xo; j++)
@@ -60,7 +60,7 @@ int main()
        }
        printf("(%d)\n", xo);  
    }
-   else if(xu > 0)
+   if(xu > 0)
    {
        printf("u:");
        for(j=1; j<=xu; j++)
