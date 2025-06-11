@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define T 100
+#define T 101
 int main()
 {
    int j, xa=0, xe=0, xi=0, xo=0, xu=0;
