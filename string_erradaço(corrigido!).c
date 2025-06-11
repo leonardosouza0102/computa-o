@@ -15,9 +15,9 @@ int main()
    {
        if(string[j] == a)
          xa++;
-       else if(string[j] == e)
+       else if(string[j] == e || string[j] == E)
          xe++;
-       else if(string[j] == i)
+       else if(string[j] == i )
          xi++;
        else if(string[j] == o)
          xo++;
