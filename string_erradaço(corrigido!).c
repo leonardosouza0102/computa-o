@@ -5,10 +5,15 @@ int main()
    int j, xa=0, xe=0, xi=0, xo=0, xu=0;
    char string[T];
    char a='a';
+   char A='A';
    char e='e';
+   char E='E';
    char i='i';
+   char I='I';
    char o='o';
+   char O='O';
    char u='u';
+   char U='U';
    printf("Digite uma string: ");
    fgets(string, T, stdin);
    for(j=0; string[j]; j++)
@@ -17,11 +22,11 @@ int main()
          xa++;
        else if(string[j] == e || string[j] == E)
          xe++;
-       else if(string[j] == i )
+       else if(string[j] == i || string[j] == I)
          xi++;
-       else if(string[j] == o)
+       else if(string[j] == o || string[j] == O)
          xo++;
-       else if(string[j] == u)
+       else if(string[j] == u || string[j] == U)
          xu++;
    }
    if(xa > 0)
