@@ -1,0 +1,22 @@
+////ls  cat<  ctrl+d  cat    ////gedit   //markdown
+
+//(meu_arquivo) = fopen("nome do arquivo", "r/w/a...")   fclose(meu_arquivo)
+
+
+//FILE*(meu_arquivo)//nome da variável que representará o arquivo)
+
+//if(meu_arquivo == NULL)
+//printf("O arquivo não fio encontrado");
+//return 1;//return 0 emcaso de sucesso
+
+//int resultado = fclose(meu_arquivo)
+//if (resultado == EOF)
+//{
+ //   printf("O arquivo não pôde ser fechado");
+ //   return 1;
+//}
+// fputs("buffer\n", meu_arquivo);
+
+
+//fgets(nome da string, TAMANHO, entrada(ex.: meu_arquivo));
+//fscanf("meu_arquivo", %d, &variável);
