@@ -15,7 +15,7 @@ int main()
    char u='u';
    char U='U';
    printf("Digite uma string: ");
-   fgets(string, T, stdin);
+   fgets(string, T, stdin); //(nome da string, tamanho, puxa do teclado/entrada padrão)
    for(j=0; string[j]; j++)
    {
        if(string[j] == a)
